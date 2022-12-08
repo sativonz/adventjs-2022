@@ -18,11 +18,11 @@ test('Test #02 - wrapping(["cat", "game", "socks"])', () => {
   )
 })
 
-test('Test #03 - wrapping(["midu", "achalogy"])', () => {
-  expect(wrapping(["midu", "achalogy"])).toStrictEqual(
+test('Test #03 - wrapping(["dayu", "sativonz"])', () => {
+  expect(wrapping(["midu", "sativonz"])).toStrictEqual(
     [
       "******\n*midu*\n******",
-      "**********\n*achalogy*\n**********"
+      "**********\n*sativonz*\n**********"
     ]
   )
 })
