@@ -4,6 +4,5 @@ function wrapping(gifts) {
     return `${wrapped}\n*${gift}*\n${wrapped}`;
   });
 }
-
 module.exports = wrapping;
 
