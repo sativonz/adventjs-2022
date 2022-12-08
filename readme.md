@@ -1,4 +1,4 @@
-# 🌟 | Advent JS - Achalogy
+# 🌟 | Advent JS - sativonz
 Repositorio donde estoy subiendo y explicando los retos de [Advent JS](https://adventjs.dev/)
 
 ![Advent JS 2022](https://imgur.com/hugQnqm)
