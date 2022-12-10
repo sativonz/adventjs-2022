@@ -1,7 +1,11 @@
 //import { countHours } from "./reto-2/index.js";
 //import { distributeGifts } from "./reto-3/index.js";
 //import { fitsInOneBox } from "./reto-4/index.js";
-import { getGiftsToRefill } from "./reto-7/index.js";
+//import { getGiftsToRefill } from "./reto-7/index.js";
+//import { createCube } from "./reto-6/index.js";
+//import { countTime } from "./reto-9/index.js";
+import { checkPart } from "./reto-8/index.js";
+
 
 // Reto 2
 const year = 2022
@@ -26,10 +30,21 @@ const boxes = [
 //console.log(fitsInOneBox(boxes));
 
 
+// Reto 6
+//console.log(createCube(1));
+//console.log(createCube(2));
 
 // Reto 7
 const a1 = ['bici', 'coche', 'bici', 'bici']
 const a2 = ['coche', 'bici', 'muñeca', 'coche']
 const a3 = ['bici', 'pc', 'pc']
+//console.log(getGiftsToRefill(a1, a2, a3));
 
-console.log(getGiftsToRefill(a1, a2, a3));
+
+
+// Reto 8
+console.log(checkPart("muojium"));
+
+// Reto 9
+const leds = [0, 0, 1, 0, 0]
+//console.log(countTime(leds))
