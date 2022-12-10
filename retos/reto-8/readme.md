@@ -1,7 +1,3 @@
-## Disclaimer
-
-La función optimizada se encuentra explicada en [este documento](https://github.com/Achalogy/advent-js-2022/blob/main/retos/reto-8/OPTIMIZED.md).
-
 # Reto 8
 
 Se han estropeado algunos trineos eléctricos y los elfos están buscando piezas de repuesto para arreglarlos, pero no tienen claro si las piezas que tienen sirven.
