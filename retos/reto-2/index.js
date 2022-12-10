@@ -1,6 +1,7 @@
 function countHours(year, holidays) {
   return holidays.map(holiday => {
     let date = new Date(`${year}/${holiday}`)
+    console.log(date);
     return(
       [1, 2, 3, 4, 5].includes(
         date.getDay()
