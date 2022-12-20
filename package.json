@@ -5,7 +5,9 @@
   "main": "reto_1.js",
   "scripts": {
     "test": "jest",
-    "test:1": "jest -i retos/reto-1/reto1.test.js"
+    "test:1": "jest -i retos/reto-1/reto1.test.js",
+    "test:10": "jest -i retos/reto-10/reto10.test.js",
+    "test:12": "jest -i retos/reto-12/reto12.test.js"
   },
   "repository": {
     "type": "git",

@@ -11,7 +11,6 @@ export function checkPart(part) {
   // try removing one character at a time and check if the resulting string is a palindrome
   for (let i = 0; i < part.length; i++) {
     let newPart = part.slice(0, i) + part.slice(i + 1);
-    console.log("nexpart",newPart);
     if (isPalindrome(newPart)) {
       return true;
     }
