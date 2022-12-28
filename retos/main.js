@@ -14,7 +14,8 @@
 // import carryGifts from "./reto-17/index.js";
 // import dryNumber from "./reto-18/index.js";
 //  import sortToys from "./reto-19/index.js";
- import howManyReindeers from "./reto-20/index.js";
+// import howManyReindeers from "./reto-20/index.js";
+import printTable from "./Reto-21/index.js"
 
 
 //Reto 1
@@ -161,7 +162,7 @@ const changes = [
 // Reto 19
 const toys = ['ball', 'doll', 'car', 'puzzle']
 const positions = [2, 3, 1, 0]
-console.log(sortToys(toys, positions))
+//console.log(sortToys(toys, positions))
 // ['puzzle', 'car', 'ball', 'doll']
 const moreToys = ['pc', 'xbox', 'ps4', 'switch', 'nintendo']
 const morePositions = [8, 6, 5, 7, 9]
@@ -184,7 +185,7 @@ const gifts = [
   { country: 'Italy', weight: 50 }
 ]
 
-howManyReindeers(reindeerTypes, gifts)
+//howManyReindeers(reindeerTypes, gifts)
 // [{
 //   country: 'Spain',
 //   reindeers: [
@@ -207,3 +208,22 @@ howManyReindeers(reindeerTypes, gifts)
 //     { type: 'Diesel', num: 5 }
 //   ]
 // }]
+
+
+
+
+//Ret 21
+
+const giftsPrint1 = [
+  { name: 'Game', quantity: 2 },
+  { name: 'Biketike', quantity: 123123 },
+  { name: 'Book', quantity: 325589854145 }
+];
+const giftsPrint2 = [
+  { name: 'Game', quantity: 2 },
+  { name: 'Bike', quantity: 1 },
+  { name: 'Book', quantity: 3 }
+];
+//console.log(printTable(giftsPrint1));
+console.log('');
+console.log(printTable(giftsPrint2));
