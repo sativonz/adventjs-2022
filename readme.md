@@ -1,8 +1,7 @@
 # 🌟 | Advent JS - sativonz
-Repositorio donde estoy subiendo y explicando los retos de [Advent JS](https://adventjs.dev/)
 
 ![Advent JS 2022](https://i.imgur.com/hugQnqm.jpg)
-
+#
 ## 🎮 | Retos
 
 |  #  |                  Nombre del Reto                  | Dificultad[^1] |                  Descripción                   |                                  Solución                                    |
